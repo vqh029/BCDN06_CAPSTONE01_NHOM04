@@ -1,0 +1,54 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* <--------------- Global CSS ---------------> */
+/* Chứa các thành phần CSS chung nhất cho trang web, thường lặp đi lặp lại: button,...  */
+:root {
+  --primary-color: #009f4d;
+  --secondary-color: #213364;
+  --font-color: #666;
+  --bg-color: #fff;
+  --heading-color: #3f3a64;
+  --border-radius: 8px;
+  --border-radius-full: 35px;
+  --border-color: transparent;
+  --border-color-light: #eee;
+  --nav-color: #292922;
+  --dropdown-color: #fff;
+  --iframe-filter: grayscale(0%);
+  --bg-grey: #f7f7f7;
+  --bg-lightgrey: #f8f9fa;
+  --layer: rgba(29, 42, 55, 0.7);
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* <--------------- Header CSS ---------------> */
+
+/* <--------------- Banner CSS ---------------> */
+
+/* <--------------- About-us CSS ---------------> */
+
+/* <--------------- Work CSS ---------------> */
+
+/* <--------------- Services CSS ---------------> */
+
+/* <--------------- Gallery CSS ---------------> */
+
+/* <--------------- Progress CSS ---------------> */
+
+/* <--------------- Testimonials CSS ---------------> */
+
+/* <--------------- Blog CSS ---------------> */
+
+/* <--------------- Subcribe CSS ---------------> */
+
+/* <--------------- Footer CSS ---------------> */
