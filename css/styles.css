@@ -32,7 +32,12 @@ body {
   background-color: var(--bg-color);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
   color: var(--heading-color);
@@ -79,22 +84,106 @@ h1, h2, h3, h4, h5, h6 {
 /* <--------------- Blog CSS ---------------> */
 
 /* <--------------- Subcribe CSS ---------------> */
-.subscribe-section{
-  background-image: url('../asset/img/map.png');
+.subscribe-section {
+  background-image: url("../asset/img/map.png");
   background-color: #151421;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.subscribe-container{
+.subscribe-container {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.subscribe-content{
+.subscribe-content {
   max-width: 700px;
   margin: 0 auto;
+}
+
+.sub-header {
+  text-align: center;
+}
+
+.sub-header > h3 {
+  font-size: 35px;
+  color: #fff;
+  line-height: 45px;
+  font-weight: 700;
+}
+
+.sub-header > p {
+  font-size: 17px;
+  margin: 16px 0px 0px;
+  padding: 0px 48px 0px 0px;
+  line-height: 27px;
+  opacity: .8;
+  color: #eee;
+}
+
+.sub-form {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.input-icon {
+  display: flex;
+  align-items: center;
+  color: #999;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 0 15px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.subscribe-section input[type="email"] {
+  padding: 14px 20px;
+  font-size: 16px;
+  line-height: 28px;
+  border: 1px solid var(--border-color-light);
+  outline: none;
+  width: 100%;
+  background: var(--bg-color);
+  border-radius: 0;
+  color: #999;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(255, 255, 255, 0.15);
+  border-left: none;
+}
+
+.btn-style {
+  padding: 15px 50px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 600;
+  transition: 0.5s all;
+  border-radius: var(--border-radius);
+}
+
+.subscribe-section button.btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 0 25px;
+  font-size: 16px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #00a63f;
+  border-color: #00a63f;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #008030;
+  border-color: #00732c;
 }
 
 /* <--------------- Footer CSS ---------------> */
