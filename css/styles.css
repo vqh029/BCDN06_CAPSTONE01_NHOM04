@@ -133,6 +133,7 @@ li{
   font-weight: 600;
   line-height: 28px;
   color: var(--heading-color);
+  text-decoration: none;
 }
 .service-link a span{
   color: var(--primary-color);
@@ -237,10 +238,135 @@ li{
 
 
 
-/* <--------------- Services CSS ---------------> */
+/*! <--------------- Services CSS ---------------> */
 
-/* <--------------- Gallery CSS ---------------> */
+.grids5-info .zoom img{
+  border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
 
+.grids5-info .blog-info a{
+  text-decoration: none;
+  font-size: 19px;
+    line-height: 28px;
+    font-weight: 600;
+    color: var(--heading-color);
+    text-align: center;
+    background: var(--bg-color);
+    padding: 12px 35px;
+    display: inline-block;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    transform: translateY(-25px);
+    box-shadow: rgb(1 1 1 / 5%) 1px 1px 5px 0px;
+}
+.grids5-info .blog-info .title:hover{
+  color: var(--primary-color);
+  
+}
+.grids5-info .blog-info .text-para{
+  margin-top: -10px;
+}
+.grids5-info .blog-info  p{
+  font-size: 17px;
+  line-height: 27px;
+  color: var(--font-color);
+  opacity: .8;
+}
+.grids5-info .btn-style1 {
+  padding: 8px 35px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+.grids5-info .btn-style1:hover {
+  color: var(--primary-color);
+}
+/*! <--------------- Gallery CSS ---------------> */
+
+.w3l-gallery {
+  background: var(--bg-lightgrey);
+}
+
+.w3l-gallery a.zoom {
+  overflow: hidden;
+  position: relative; }
+
+
+
+/* .w3l-gallery .overlay__hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--layer);
+  transition: all 0.3s;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+} */
+.w3l-gallery span.hover-content .title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  display: block;
+  margin-bottom: 10px;
+}
+.w3l-gallery span.hover-content .content {
+  font-size: 18px;
+  color: #fff;
+  display: block;
+}
+
+.w3l-gallery .item .zoom  .overlay__hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(88, 78, 78, 0.65);
+  transition: all 0.3s;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+}
+/* hover vào đổi background overlay */
+.w3l-gallery a.zoom:hover .overlay__hover {
+  visibility: visible;
+  opacity: 1; }
+
+.w3l-gallery span.hover-content {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+  padding: 46px 50px;
+  color: #b13131;
+  z-index: 2;
+}
+/* hover vào di chuyển conten lên */
+.w3l-gallery .item a:hover .hover-content {
+  bottom: 0;
+  visibility: visible;
+  opacity: 1;
+}
+/* hover zoom img */
+.w3l-gallery a:hover img {
+  overflow: hidden;
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out; }
+
+  
 /* <--------------- Progress CSS ---------------> */
 
 /* <--------------- Testimonials CSS ---------------> */
