@@ -29,6 +29,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <!-- ! font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- !LIGHT BOX  -->
     <link rel="stylesheet" href="./css/lightbox.min.css">
     <!-- CSS only -->
@@ -50,7 +53,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
-  <body>
+  <body id="-myBody">
     <!-- Để dễ dàng đặt tên, làm việc với class
         - Các section/header/footer là các thẻ cha thì nên có các thẻ con class="container" bên trong
             section/header>container>...
@@ -72,10 +75,10 @@
      -->
     <!-- ! HEADER  -->
     <header id="site-header" class="main-header">
-      <nav class="container navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="container navbar navbar-expand-lg ">
         <h1>
           <a class="navbar-brand" href="#">
-            <span class="fa fa-align-right"></span>Corp Vision
+            <span class="fa fa-align-right" id="myBody"></span>Corp Vision
             <span class="logo">Vision to your Future</span>
           </a>
         </h1>
@@ -116,7 +119,6 @@
                 <a class="dropdown-item" href="#">BLOG POSTS</a>
                 <a class="dropdown-item" href="#">404 PAGE</a>
                 <a class="dropdown-item" href="#">LANGING PAGE </a>
-                <!-- <div class="dropdown-divider"></div> -->
                 <a class="dropdown-item" href="#">ELEMENTS PAGE </a>
               </div>
             </li>
@@ -132,52 +134,31 @@
                 ></a>
               </div>
             </div>
-            <!-- full screen form controls -->
-            <!-- <i class="icon-close fa fa-close material-icons"></i>
-            <form
-              action="https://wp.w3layouts.com/corpvision/"
-              method="GET"
-              class="search-input"
-            >
-              <input
-                class="input-search"
-                name="s"
-                placeholder="Start Typing"
-                type="text"
-              />
-            </form> -->
+           
           </div>
-          <div class="mobile-position text-center DarkandLight">
+          <div class="mobile-position text-center DarkandLight" id="switchButton">
             <nav class="navigation">
-              <div class="theme-switch-wrapper">
+              <div >
                 <label class="theme-switch" for="checkbox">
-                  <input type="checkbox" id="checkbox" />
+                  <!-- <input type="checkbox" id="checkbox" /> -->
                   <div class="mode-container">
-                    <i class="gg-sun"></i>
-                    <i class="gg-moon"></i>
+                    <i class="fa-solid fa-sun"></i>
+                    <i class="fa-solid fa-moon"></i>
                   </div>
                 </label>
               </div>
             </nav>
           </div>
-          <!-- <form class="form-inline my-2 my-lg-0">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form> -->
+        
         </div>
       </nav>
     </header>
     <!-- ! BANNER  -->
-    <section id="banner"></section>
+    <section id="banner">
+
+    </section>
     <!-- !ABOUT-US  -->
-    <section id="about-us">
+    <section id="about-us myBody">
       <div class="container  py-lg-5 py-md-3" >
         <div class="  abuotus py-5">
           <div class="abuotus__left ">
@@ -482,6 +463,6 @@ Learn More</a>
 <!-- !LIGHT BOX  -->
 <script src="./js/lightbox.min.js"></script>
     <!-- Main JS -->
-    <script src="./js/main.js"></script>
+    <!-- <script src="./js/main.js"></script> -->
   </body>
 </html>
