@@ -324,3 +324,9 @@ h6 {
   border-radius: 35px;
   transition: 0.3s ease-out;
 }
+
+@media screen and (min-width: 1280px){
+  .footer-section .container{
+    max-width: 1200px;
+  }
+}
